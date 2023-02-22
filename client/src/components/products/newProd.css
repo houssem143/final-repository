@@ -1,0 +1,28 @@
+.btn {
+    outline: 0;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    background: red;
+    width: 100px;
+    border: 0.5px solid rgba(0, 0, 0, 0.37);
+    padding: 0.5rem 1rem;
+  }
+  
+  .btn-danger {
+    color: white;
+    background: darkred;
+  }
+  
+  .btn-primary {
+    color: white;
+    background: darkred;
+  }
+  
+  .add-product-btn {
+    background: white;
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+  }

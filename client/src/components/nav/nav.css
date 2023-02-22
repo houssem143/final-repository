@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Yellowtail&display=swap');
+
+.nav {
+    top: 0;
+    position:fixed;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    height: 12vh;
+    align-items: center;
+    background: url(https://blog-ecophytohautsdefrance.fr/wp-content/uploads/2017/01/DSC04077.jpg);
+   
+    
+  }
+  .nav > span {
+    color: deepskyblue;
+    margin-left: 2%;
+    font-size: xx-large;
+    font-family: Dancing Script;
+  }
+  
+  #logo {
+    color: rgb(4, 74, 30);
+  }
+  
+  .links {
+    width: 30%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .link {
+    color: rgb(4, 74, 30);
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    color: deepskyblue;
+  }
